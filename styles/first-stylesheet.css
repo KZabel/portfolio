@@ -1,7 +1,10 @@
 * {
   background-color: rgba(234, 239, 244, 0.88);
   box-sizing: border-box;
-  font-family: Verdana, Geneva, sans-serif;
+}
+
+header, footer {
+  font-family: 'PT Serif', serif;
 }
 
 h1 {
@@ -44,6 +47,7 @@ nav li a:hover {
 
 h2 {
   color: #292929;
+  font-family: 'Lato', sans-serif;
   font-weight: bold;
   text-align: center;
 }
@@ -55,6 +59,7 @@ img {
 
 p {
   color: #292929;
+  font-family: 'Lato', sans-serif;
   margin: 2rem;
 }
 
