@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Lato|PT+Serif' rel='stylesheet' type='text/css'>
     <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
@@ -17,58 +16,62 @@
   
   <body>
     <header>
-      <h1>About me</h1>
+      <h1 class="text-center">Kylee's Portfolio</h1>
       <nav>
-        <ul>
-          <li><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
-          <li><a href="about.html">About me</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="#">Contact</a></li>
+        <ul class="nav nav-pills nav-justified">
+          <li role="presentation"><a href="index.html">Home</a></li>
+          <li role="presentation"><a href="about.html">About me</a></li>
+          <li role="presentation"><a href="projects.html">Projects</a></li>
+          <li role="presentation"><a href="#">Contact</a></li>
         </ul>
       </nav>
     </header>
     
-    <article>
+    <div class="panel panel-default">
       <h2>Kylee, in a nutshell...</h2>
-      <img src="http://placehold.it/250x250" alt="Portrait of Kylee Zabel">
-      <p>Kylee Zabel is a government public relations specialist in Olympia, Washington. Her focus is on media relations and constituent outreach, as well as specific outreach relating to issues involving agriculture and natural resources in Washington state. She also is diversifying her portfolio by getting involved in web development and design for her team. A University of Washington grad, she loves calling Washington her home.  
-</p>
-      <p>Outside of work, Kylee calls herself 'a coffee fanatic and interior design enthusiast,' and loves cheering on her beloved Seattle Sounders Football Club.</p>
-    </article>
+      <img src="http://placehold.it/250x250" class="img-responsive" alt="Portrait of Kylee Zabel">
+      Kylee Zabel is a government public relations specialist in Olympia, Washington. Her focus is on media relations and constituent outreach, as well as specific outreach relating to issues involving agriculture and natural resources in Washington state. She also is diversifying her portfolio by getting involved in web development and design for her team. A University of Washington grad, she loves calling Washington her home. Outside of work, Kylee calls herself 'a coffee fanatic and interior design enthusiast,' and loves cheering on her beloved Seattle Sounders Football Club.
+    </div>
     
-    <div class="interior-design">
-      <article>
+    <div class="pull-left">
+        <div class="list-group">
+          <h4 class="list-group-item active">Where to find inspiration?</h4>
+          <a href="https://magnoliamarket.com/" class="list-group-item">Magnnolia Market</a>
+          <a href="http://themoderncottagecompany.blogspot.com/" class="list-group-item">The Modern Cottage Company</a>
+          <a href="http://www.theclassicfarmhouse.com/" class="list-group-item">The Classic Farmhouse</a>
+          <a href="http://freshome.com/" class="list-group-item">Freshome</a>
+          <a href="http://www.houzz.com/" class="list-group-item">Houzz</a>
+          <a href="https://www.pinterest.com/search/pins/?q=interior%20design&rs=typed&term_meta%5B%5D=interior%7Ctyped&term_meta%5B%5D=design%7Ctyped" class="list-group-item">Pinterest</a>
+        </div>
+      </div>
+    
         <h3>Interior design faves</h3>
-        <div class="gallery">
-          <figure>
-            <img src="images/collage.PNG">
-            <figcaption>Display your own photos with a gallery wall.<a href="http://www.monicawantsit.com/2014/06/fab-fridays-planning-gallery-wall.html">Read more about it here.</a></figcaption>
-          </figure>
-          <figure>
-            <img src="images/cabinets.PNG">
-            <figcaption>Spice up your kitchen with an alternative cabinet color.<a href="http://www.houzz.com/photos/traditional/kitchen/cabinet-finish--blue/layout--galley--l-shape/size--compact">Get inspiration here.</a></figcaption>
-          </figure>
-          <figure>
-            <img src="images/paint.PNG">
-            <figcaption>Take that hand-me-down to the next level.<a href="http://www.mrshinesclass.com/2013/11/13/how-to-paint-furniture-with-annie-sloan-chalk-paint/">Learn how to paint with chalk paint here.</a></figcaption>
-          </figure>
-          <figure>
-            <img src="images/neutral.PNG">
-            <figcaption>Use a neutral palette to add sophistication to any room. <a href="http://nwrenovationsanddesign.com/2013/10/08/colors-inspire/">Find color inspiration here.</a></figcaption>
-          </figure>
+        <div class="thumbnail">
+            <img src="images/collage.PNG" class="img-rounded" width="200px">
+            <div class="caption">
+              Display your own photos with a gallery wall.<a href="http://www.monicawantsit.com/2014/06/fab-fridays-planning-gallery-wall.html">Read more about it here.</a>
+          </div>
+        </div>
+          <div class="thumbnail">
+            <img src="images/cabinets.PNG" class="img-rounded" width="200px">
+            <div class="caption">
+              Spice up your kitchen with an alternative cabinet color.<a href="http://www.houzz.com/photos/traditional/kitchen/cabinet-finish--blue/layout--galley--l-shape/size--compact">Get inspiration here.</a>
+            </div>
+        </div>
+          <div class="thumbnail">
+            <img src="images/paint.PNG" class="img-rounded" width="200px">
+            <div class="caption">
+              Take that hand-me-down to the next level.<a href="http://www.mrshinesclass.com/2013/11/13/how-to-paint-furniture-with-annie-sloan-chalk-paint/">Learn how to paint with chalk paint here.</a>
+            </div>
+        </div>
+          <div class="thumbnail">
+            <img src="images/neutral.PNG" class="img-rounded" width="200px">
+            <div class="caption">
+              Use a neutral palette to add sophistication to any room. <a href="http://nwrenovationsanddesign.com/2013/10/08/colors-inspire/">Find color inspiration here.</a>
+            </div>
         </div>
       </article>
-      <aside>
-        <h4>Where to find inspiration?</h4>
-        <ul>
-          <li><a href="https://magnoliamarket.com/">Magnnolia Market</a></li>
-          <li><a href="http://themoderncottagecompany.blogspot.com/">The Modern Cottage Company</a></li>
-          <li><a href="http://www.theclassicfarmhouse.com/">The Classic Farmhouse</a></li>
-          <li><a href="http://freshome.com/">Freshome</a></li>
-          <li><a href="http://www.houzz.com/">Houzz</a></li>
-          <li><a href="https://www.pinterest.com/search/pins/?q=interior%20design&rs=typed&term_meta%5B%5D=interior%7Ctyped&term_meta%5B%5D=design%7Ctyped">Pinterest</a></li>
-        </ul>
-      </aside>
+        
     </div>
     <footer>
       <h5>Connect with me</h5>
